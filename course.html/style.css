@@ -1,0 +1,68 @@
+*{font-family: vazirmatn ;
+   direction: rtl;
+  
+}
+
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('fonts/webfonts/Vazirmatn[wght].woff2') format('woff2 supports variations'),
+         url('fonts/webfonts/Vazirmatn[wght].woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  #menu{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    display: block;
+  }
+  li{
+    list-style-type: none;
+  
+    display: block;
+    margin: 5px;
+    padding-bottom: 3px;
+    
+  }
+  .active{
+    background-color: #447ff4;
+    border-radius: 5px;
+    margin-right: 2px;
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    background-color : rgb(228, 226, 217);
+    padding-top: 5px;
+    
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-top: 25px;
+
+  }
+  
+ .item:hover {
+    background-color:rgba(187, 189, 173, 0.341);
+  
+    
+  border-radius: 5px;
+  color: white;
+  
+  }
+
+  
+  
+@media (max-width: 800px) {
+  #ul {
+        flex-direction:column;
+      align-items: self-start;
+    }
+}
